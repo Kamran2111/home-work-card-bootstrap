@@ -1,0 +1,28 @@
+body {
+  font-family: "DM Sans", sans-serif;
+}
+.container__section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+.container__blue {
+  background-color: #4339f2;
+}
+.container__red {
+  background-color: #ff3a29;
+}
+.container__green {
+  background-color: #34b53a;
+}
+.user {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.user__inner {
+  display: grid;
+}
+.rr {
+  grid-column: 2/3;
+  grid-gap: 10px;
+}
